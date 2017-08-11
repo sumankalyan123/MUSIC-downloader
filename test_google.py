@@ -18,7 +18,7 @@ def read_from_text_file():
     names_with_download_tag = []
     for line in open(filename, 'r').readlines():
         songs.append(line.strip('\n'))
-        names_with_download_tag = [x + '  mp3 free download ' for x in songs]
+        names_with_download_tag = [x + '  mp3 free download jatt ' for x in songs]
     return names_with_download_tag
 
 
@@ -62,9 +62,12 @@ def download_mp3_song(mp3_download_url):
         try:
             name = random.randrange(1, 1000000)
             full_name = str(mp3_file_name) + ".mp3"
-            if not any(fname == mp3_file_name + '.mp3' for fname in os.listdir(r'C:\Users\sumankalyan\PycharmProjects\MUSIC_DOWNLOADER')):
+            if  any(fname == mp3_file_name + '.mp3' for fname in os.listdir(r'C:\Users\sumankalyan\PycharmProjects\MUSIC_DOWNLOADER')):
+                 pass
+            else:
                 urllib.request.urlretrieve(song, full_name)
                 print(mp3_file_name + ' Downloaded Successfuly')
+                break
         except:
             pass
 
@@ -121,6 +124,7 @@ def my_form_post():
         fw.close()
         main_function_call()
         return 'song download completed successfully'
+        my_form()
 
 
 if __name__ == '__main__':
