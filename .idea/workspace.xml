@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026e48a4-3a7f-483f-9a1a-f77f44fdca1e" name="Default" comment="Fresh Version need to add exception">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MUSIC_DOWNLOADER.iml" afterPath="$PROJECT_DIR$/.idea/MUSIC_DOWNLOADER.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="026e48a4-3a7f-483f-9a1a-f77f44fdca1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_google.py" afterPath="$PROJECT_DIR$/test_google.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -367,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502393262736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fresh Version need to add exception dd">
+      <created>1502467319456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502467319456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -432,7 +435,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fresf" />
     <MESSAGE value="Fresh Version need to add exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fresh Version need to add exception" />
+    <MESSAGE value="Fresh Version need to add exception dd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fresh Version need to add exception dd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
