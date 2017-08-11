@@ -1,5 +1,10 @@
-url = 'https://royalwap.net/128-227090/Nimbooda Nimbooda.mp3'
+names = ['ee', 'eeeeeeee', 'suman', int(33),'tata',55,'yayay']
 
-if url.endswith('.mp3'):
-    print ('yes')
+
+for i in names:
+    try:
+        i = i.replace('ee', 'p')
+        print(i)
+    except:
+        pass
 
